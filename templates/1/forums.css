@@ -1,0 +1,242 @@
+/* - Forum styles - */
+
+.tbi {
+    vertical-align:middle;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	float:none;
+}
+
+.forumrules_title {
+    background: #7192b2;
+	font-size: 14px;
+	color: #fff;
+	padding: 7px;
+    margin-bottom: 4px;
+}
+
+.forumrules_border, .forumrules_text_border { border:1px solid #e2e2e0; padding:4px; }
+
+.forumrules_text {
+    background: #FFFF99;
+	font-size: 14px;
+    color: #000;
+}
+
+.fbtn a, .nocreate, .jbtn {
+    font-size: 1.2em;
+    font-family:Verdana,sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #072A66;
+    margin:5px 0px 5px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.fbtn a { background:#1d3652; padding: 5px; }
+.fbtn a:hover { background:#666; }
+.nocreate { background:#900000; padding: 5px; }
+.jbtn { background:#1d3652; padding: 2px; }
+
+.tb_table_outer_wrap { width: 100%; }
+
+.tb_table_inner_wrap {
+    text-align:left;
+    border:0;
+    background:#1d3652;
+    font-size:17px;
+    font-weight:normal;
+    padding:8px;
+    border-radius:5px 5px 0 0;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+}
+
+.tb_table_inner_wrap span a { color:#d3d3d3; }
+
+.header { background: #b6c7db; color: #1d3652; }
+.maintitle .desc { font-size: 0.8em; color: #606060; }
+.row1, .row1 td, .post_block.row1 { background: #fafbfc; /* - Very light blue - */ }
+.row1 .altrow, .row1.altrow { border: 0; background: #eef3f8; /* - Slightly darker than row1 - */  }
+.row2, .row2 td, .post_block.row2 { background: #f1f4f7; /* - Light blue - */ }
+.row2 .altrow, .row2.altrow{ background: #e4ebf2; /* - Slightly darker than row2 - */ }
+.col_c_icon { width:53px; }
+.col_c_stats { width: 15%; }
+.col_c_post { width: 40%; }
+.col_c_forum { width: 60%; }
+.no_topics { width: 100%; }
+
+/* - Table Styles - */
+
+table.tb_table { border-collapse: collapse; line-height: 120%; border-bottom: 4px solid #d5dde5; }
+table.tb_table a { text-decoration: none; }
+table.tb_table a:hover, body table.tb_table th a {  text-decoration: underline; }
+table.tb_table caption span.desc {  font-size: 0.6em; }
+
+table.tb_table h4, table.tb_table .topic_title {
+    font-size: 1.1em;
+    font-weight: normal;
+    display: inline;
+}
+
+table.tb_table tr td { padding: 10px 8px 8px 8px; border-bottom: 1px solid #fff; }
+
+table.tb_table tr .stats { text-align: right; }
+body table.tb_table tr td p { font-size: 0.9em; }
+
+table.tb_table th, table.tb_table ol.subforums li, table.tb_table ol.subforums li.newposts { font-size: 0.85em; }
+table.tb_table th { font-weight: bold; padding: 6px; }
+table.tb_table ol.subforums { padding-top: 6px; margin-top: 5px; }
+table.tb_table ol.subforums li, table.tb_table ol.subforums li.newposts { color: #1d3652; float: left; }
+table.tb_table ol.subforums li { padding: 0 4px 0 15px; }
+table.tb_table ol.subforums li.newposts { padding: 0 4px 0 16px; }
+table.tb_table tr.announcement td, table.tb_table tr.subhead th { font-weight: bold; font-size: 1.1em; }
+table.tb_table tr.subhead th  { padding: 8px; }
+
+table.tb_table ul li { font-size: 0.95em; }
+.noborder { border: 0; }
+
+/* - Post background - */
+
+.post_wrap {
+    text-align: left;
+    background: #fafbfc;
+    border-bottom:6px solid #666;
+    top: 0px;
+}
+
+.author_info {
+    float:left;
+    font-size: 0.9em;
+    border-right: 1px solid #e4ebf3;
+    margin:15px auto;
+    width: 140px;
+    padding-left: 5px;
+}
+
+
+li.avatar { text-align: center; }
+li.title { text-align:center; font-size: small; }
+
+.author_info ul.fields li {
+    clear:both;
+    font-size:0.9em;
+    color:#718a96;
+    padding-bottom:2px;
+    overflow:hidden
+}
+
+.author_info ul.fields { clear:both; }
+.author_info ul.fields li span.lu, .author_info ul.fields li span.ru { display:block; float:left; }
+.author_info ul.fields li span.lu { width:50%; text-align:right; font-weight:bold; padding:0 0 0 6px; }
+.author_info ul.fields li span.ru { padding:0 8px 0 8px; max-width:50%; word-wrap:break-word; }
+.fnav { text-align: left; font-weight: bold; }
+
+.post_body {
+    width:549px;
+    float:left;
+    line-height: 100%;
+    margin-top:3px;
+    text-align:justify;
+    padding: 10px;
+    height:100%;
+}
+
+.post_footer {
+    clear: left;
+    text-align: right;
+    background: #e4ebf3;
+    padding: 10px;
+}
+
+.post_head {
+    text-align: right;
+    background: #d5dee5;
+    padding: 10px;
+}
+
+.post_time { margin-bottom: 15px; }
+
+.fedited_by {
+    background: lightgray;
+    font-size: tiny;
+    line-height: 200%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.user_control_fbtn a {
+    font-size: 1em;
+    font-weight: thin;
+    font-family:Verdana,sans-serif;
+    background: #e4ebf3;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #C0D9D9;
+    padding: 2px;
+    margin:5px 5px 5px 5px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+.user_control_fbtn a:hover { background: #C0D9D9; }
+
+.mod_option_box {
+    width: 80%;
+    background: #f1f6ec;
+    border: 1px solid #b0ce94;
+    color: #515151;
+    margin: 20px 0 20px 0;
+    padding: 5px;
+    clear: both;
+}
+
+.mod_option {
+    width: 80%;
+    background: #f1f6ec;
+    border: 0px solid red;
+    padding: 5px;
+    clear: both;
+}
+
+.quotetop {
+    background: #E4EAF2 url('1/css_img_quote.gif') no-repeat right;
+    border: 1px dotted #000;
+    border-left: 4px solid #8394B2;
+    color: #000;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 2px auto 0 auto;
+    padding: 3px;
+}
+
+.quotemain {
+    background: #FAFCFE;
+    border: 1px dotted #000;
+    border-left: 4px solid #8394B2;
+    border-top: 0;
+    color: #465584;
+    padding: 4px;
+    margin: 0 auto 0 auto;
+}
+
+.codetop {
+    background: #FDDBCC url('1/css_img_code.gif') no-repeat right;
+    color: #000;
+    font-weight: bold;
+    margin: 0 auto 0 auto;
+    padding: 3px;
+}
+
+.codemain {
+    background: #FAFCFE;
+    border: 1px dotted #000;
+    color: #465584;
+    font-family: Courier, Courier New, Verdana, Arial;
+    margin: 0 auto 0 auto;
+    padding: 2px;
+}
